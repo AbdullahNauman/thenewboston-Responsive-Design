@@ -1,0 +1,116 @@
+//
+// Themes / Adminflare / Pages
+// --------------------------------------------------
+
+// Sign In Page
+&.page-signin .signin-info,
+&.page-signup .signup-header{
+	background: $primary-color;
+	background: fade-out($primary-color, .2);
+}
+
+// Timeline
+//
+
+.timeline:before,
+.timeline:after,
+.tl-header,
+.tl-icon{
+	background: darken(#F4F4F4, 10%);
+}
+
+.tl-header,
+.tl-icon{
+	box-shadow: 0 0 0 4px #F4F4F4;
+}
+
+.tl-entry:before{
+	background: $primary-color;
+	box-shadow: 0 0 0 3px #F4F4F4;
+}
+
+.tl-body:before{
+	border-color: transparent $theme-border-color transparent transparent;
+}
+
+@media (min-width: $screen-tablet) {
+	.timeline.centered .tl-entry.left .tl-body:before{
+		border-color: transparent transparent transparent $theme-border-color;
+	}
+
+	&.right-to-left .timeline.centered .tl-entry.left .tl-body:before{
+		border-color: transparent $theme-border-color transparent transparent;
+	}
+}
+
+&.right-to-left .tl-body:before{
+	border-color: transparent transparent transparent $theme-border-color;
+}
+
+// Mail
+//
+
+&.page-mail{
+	.mail-nav,
+	.mail-nav:before{
+		background: #F4F4F4 url("#{$images-path}/themes/adminflare/body-bg.png");
+	}
+
+	.mail-nav .sections li.active{
+		.label,
+		.badge{
+			background: $primary-color;
+		}
+	}
+
+	.mail-nav,
+	.mail-nav .compose-btn,
+	.mail-nav .sections li.active,
+	.mail-nav:before{
+		border-color: $theme-border-color;
+	}
+
+	.mail-nav .navigation.open .sections li.active{
+		background: darken(#F4F4F4, 4%);
+		background: rgba(0, 0, 0, .04);
+	}
+
+	.mail-nav li.divider{
+		background: $theme-border-color;
+	}
+
+	.mail-nav .sections{
+		li.active{
+			a{
+				color: darken(#F4F4F4, 70%);
+			}
+
+			&:after{
+				color: darken(#F4F4F4, 30%);
+			}
+		}
+
+		a{
+			color: darken(#F4F4F4, 55%);
+		}
+	}
+
+	.mail-nav-header{
+		color: darken(#F4F4F4, 30%);
+	}
+
+	.mail-nav .add-more a{
+		color: darken(#F4F4F4, 30%);
+	}
+}
+
+@media (min-width: $screen-md) {
+	&.page-mail .mail-nav .navigation .sections li.active{
+		background: darken(#F4F4F4, 4%);
+		background: rgba(0, 0, 0, .04);
+	}
+
+	&.page-mail .mail-nav .sections a:hover{
+		color: darken(#F4F4F4, 70%);
+	}
+}

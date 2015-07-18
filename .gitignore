@@ -1,0 +1,19 @@
+forum/project_files
+images/forum/upload
+images/trade
+includes/db_config.php
+products
+photos
+phpmyadmin
+tmp
+
+dashboard
+forbidden
+restricted
+xampp
+
+# IntelliJ project files
+.idea
+out
+gen
+

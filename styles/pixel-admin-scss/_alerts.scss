@@ -1,0 +1,53 @@
+/*
+Alerts
+*/
+
+.alert{
+	@include pixel-alert(#F9F1C7, #AF8640, #F6DEAC);
+
+	// Close link
+	.close{
+		top: 0;
+	}
+}
+
+.alert.alert-danger{
+	@include pixel-alert(#F2DEDE, #B94A48, #EBCCD1);
+}
+
+.alert.alert-success{
+	@include pixel-alert(#DFF0D8, #468847, #D0E6BE);
+}
+
+.alert.alert-info{
+	@include pixel-alert(#D9EDF7, #3A87AD, #BCE8F1);
+}
+
+// Dark alerts
+.alert.alert-dark{
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+	@include pixel-alert-dark($warning-color);
+}
+
+.alert.alert-danger.alert-dark{
+	@include pixel-alert-dark($danger-color, $stripes-opacity: .04);
+}
+
+.alert.alert-success.alert-dark{
+	@include pixel-alert-dark($success-color);
+}
+
+.alert.alert-info.alert-dark{
+	@include pixel-alert-dark($info-color);
+}
+
+.alert.alert-page{
+	margin: (-$content-wrapper-padding) (-$content-wrapper-padding) ($content-wrapper-padding) (-$content-wrapper-padding);
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+	padding-left: $content-wrapper-padding;
+	padding-right: $content-wrapper-padding;
+}

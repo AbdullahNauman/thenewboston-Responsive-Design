@@ -1,0 +1,166 @@
+//
+// Themes / Adminflare / Main menu
+// --------------------------------------------------
+
+// Background and borders
+//
+
+#main-menu-bg,
+.mmc-dropdown-open-ul{
+	background: #2B2B2B url("#{$images-path}/themes/adminflare/menu-bg.png");
+}
+
+#main-menu-bg,
+&.right-to-left.main-menu-right #main-menu-bg{
+	border-left: none;
+	border-right: 1px solid #1D1D1D;
+}
+
+&.main-menu-right #main-menu-bg,
+&.right-to-left #main-menu-bg{
+	border-left: 1px solid #1D1D1D;
+	border-right: none;
+}
+
+// Main menu
+//
+
+#main-menu{
+	// Navigation
+	//
+
+	.navigation{
+		@include box-shadow(0 1px 0 #313131);
+	}
+
+	.navigation a,
+	.mmc-dropdown-open-ul a{
+		color: #AAAAAA;
+		text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
+		@include transition(color .2s);
+
+		&:hover{
+			color: #FFFFFF !important;
+		}
+	}
+
+	// Nav items
+	li{
+		border-top: 1px solid #313131;
+		border-bottom: 1px solid #1F1F1F;
+
+		// Active nav item
+		&.active{
+			border-top: none;
+			background: #242424;
+			background: rgba(0, 0, 0, 0.15);
+			@include box-shadow(0px 1px 6px inset rgba(0, 0, 0, 0.25) !important);
+
+			& > a,
+			& > a:hover{
+				color: #75C6F3 !important;
+			}
+		}
+	}
+
+	// Submenus
+	//
+
+	.mm-dropdown.open{
+		border-bottom: none;
+
+		& > a{
+			border-bottom: 1px solid #1F1F1F;
+		}
+	}
+
+	.navigation .mm-dropdown.active,
+	.mmc-dropdown-open{
+		border-top: 1px solid #313131;
+		background: none;
+
+		> a,
+		> a:hover{
+			color: #FFFFFF !important;
+		}
+	}
+
+	// Dropdowns
+	//
+
+	.mmc-dropdown-open-ul{
+		margin-top: -1px !important;
+
+		& > a{
+			color: #FFFFFF !important;
+		}
+	}
+
+	.mmc-title{
+		color: #FFFFFF;
+		border-bottom: 1px solid #1F1F1F;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	// Top-placed dropdowns
+	.mmc-dropdown-open-ul.top{
+		margin-top: 0 !important;
+		margin-bottom: 1px !important;
+
+		.mmc-title{
+			padding-top: 0;
+		}
+	}
+
+	// Main menu content blocks
+	.menu-content{
+		border: none;
+		margin-top: -8px;
+
+		.btn-outline{
+			border-color: lighten(#2B2B2B, 5%);
+			color: #AAAAAA;
+
+			&:hover{
+				color: #FFFFFF;
+			}
+		}
+
+		&.top{
+			border-bottom: 1px solid #1F1F1F;
+			margin-top: 0;
+		}
+	}
+}
+
+// Rigth-to-left
+//
+
+&.right-to-left{
+	#main-menu-bg{
+		border-right: none;
+		border-left: 1px solid rgb(29, 29, 29);
+	}
+}
+
+// Dropdown highlights
+//
+
+// Highlight opened dropdown
+.mmc-dropdown-open .mm-dropdown.open > a,
+&.mme #main-menu .mm-dropdown.open > a{
+	color: #FFFFFF;
+}
+
+@media (min-width: $screen-tablet) {
+	// Highlight expanded submenus
+	#main-menu .mm-dropdown.open > a{
+		color: #FFFFFF;
+	}
+
+	// Unhighlight expanded submenus in collapsed mode
+	&.mmc #main-menu .navigation > .mm-dropdown.open > a{
+		color: #AAAAAA;
+	}
+}

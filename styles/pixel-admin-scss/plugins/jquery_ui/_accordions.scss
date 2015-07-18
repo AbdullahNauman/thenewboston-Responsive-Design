@@ -1,0 +1,67 @@
+//
+// Plugins / jQuery UI / Accordions
+// --------------------------------------------------
+
+.ui-accordion{
+	margin-top: -3px;
+}
+
+.ui-accordion-header{
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	border-radius: $border-radius-base;
+	color: #777777;
+	cursor: pointer;
+	margin: 5px 0 0 0;
+	min-height: 0;
+	padding: 0 15px;
+	position: relative;
+
+	&.ui-state-active{
+		@include border-bottom-radius(0);
+
+		&:after{
+			content: "\f146";
+		}
+	}
+
+	&:hover,
+	&.ui-state-active:hover{
+		background: darken(#F5F5F5, 1.5%);
+		color: $text-color;
+		text-decoration: none;
+
+		&:after{
+			color: #888888;
+		}
+	}
+
+	&:after{
+		color: #AAAAAA;
+		content: "\f0fe";
+		display: block;
+		float: right;
+		font-family: FontAwesome;
+		font-size: 10px;
+		line-height: 36px;
+		position: relative;
+	}
+}
+
+.ui-accordion-header,
+.ui-accordion-header > span{
+	color: $text-color;
+	display: block;
+	font-size: 13px;
+	line-height: 36px;
+}
+
+.ui-accordion-content{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	overflow: auto;
+	padding: 15px;
+	@include border-bottom-radius($border-radius-base);
+	@include clearfix();
+}
