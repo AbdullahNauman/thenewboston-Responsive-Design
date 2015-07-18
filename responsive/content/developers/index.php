@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>thenewboston</title>
+	<title>Developers</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
 	<link href="http://tnb-res.com/responsive/assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -23,15 +23,15 @@
 <body class="theme-default main-menu-animated">
 <script>var init = [];</script>
 <div id="main-wrapper">
-	<?php include("../panel/top_nav.php"); ?>
-	<?php include("../panel/left_menu.php"); ?>
+	<?php include("../../panel/top_developers.php"); ?>
+	<?php include("../../panel/left_developers.php"); ?>
 
 	<div id="content-wrapper">
 
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Hello cruel world</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Developers Home</h1>
 			</div>
 		</div>
 
@@ -39,6 +39,6 @@
 
 	<div id="main-menu-bg"></div>
 </div>
-<?php include("../panel/end_scripts.php"); ?>
+<?php include("../../panel/end_scripts.php"); ?>
 </body>
 </html>

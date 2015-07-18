@@ -27,41 +27,14 @@
 				<!-- Left buttons -->
 				<ul class="nav navbar-nav">
 
-					<!-- Account (dropdown) -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Basic Info</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Employment</a></li>
-							<li><a href="#">Links</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Change Password</a></li>
-							<li><a href="#">Delete Account</a></li>
-							<li><a href="#">FAQ's</a></li>
-							<li><a href="#">Notification Settings</a></li>
-						</ul>
-					</li>
+					<!-- Home -->
+					<li><a href="#">Home</a></li>
 
-					<!-- Forum -->
-					<li><a href="#">Forum</a></li>
+					<!-- API Documentation -->
+					<li><a href="#">API Docs</a></li>
 
-					<!-- Pages -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Bitcoin</a></li>
-							<li><a href="#">Funny Videos</a></li>
-							<li><a href="#">Penguins</a></li>
-						</ul>
-					</li>
-
-					<!-- Stream -->
-					<li><a href="#">Stream</a></li>
-
-					<!-- Video Tutorials -->
-					<li><a href="#">Videos & Tutorials</a></li>
+					<!-- Tutorials -->
+					<li><a href="#">Tutorials</a></li>
 
 				</ul>
 
@@ -144,7 +117,7 @@
 										<a href="#" class="message-subject">Party at my house this weekend</a>
 
 										<div class="message-description">
-											from <a href="#">wheatley core</a> &nbsp;&nbsp;Â·&nbsp;&nbsp; 2h ago
+											from <a href="#">wheatley core</a> &nbsp;&nbsp;·&nbsp;&nbsp; 2h ago
 										</div>
 									</div>
 
@@ -156,7 +129,7 @@
 										<a href="#" class="message-subject">Help with homework assignment</a>
 
 										<div class="message-description">
-											from <a href="#">Melissa Ries</a> &nbsp;&nbsp;Â·&nbsp;&nbsp; 3h ago
+											from <a href="#">Melissa Ries</a> &nbsp;&nbsp;·&nbsp;&nbsp; 3h ago
 										</div>
 									</div>
 
@@ -167,11 +140,7 @@
 
 						<!-- Right profile button -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown">
-								<img
-									src="https://www.thenewboston.com/photos/users/2/resized/23471ba4417d650505928a0b1f1fd8b1.jpg">
-								<span>Bucky Roberts</span>
-							</a>
+							<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a>
 							<ul class="dropdown-menu">
 								<li><a href="#"><i class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a></li>
 								<li><a href="http://tnb-res.com/responsive/content/ads/_marketplace.php"><i class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a></li>
