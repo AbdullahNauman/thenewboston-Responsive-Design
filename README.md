@@ -1,4 +1,10 @@
-### Responsive Design for thenewboston
+# Responsive Design for thenewboston
+
+This project is for the responsive design for thenewboston website. A preview of the site can be seen here:
+
+http://104.131.1.2/content/account/index.php
+
+# Getting Started
 
 **First, we need to install and configure XAMPP so that we have a local environment for development.**
 
@@ -53,7 +59,7 @@ XAMPP is now installed and setup properly. You are now ready to [edit your Windo
 
 ***
 
-### Step 1
+### Step 4
 
 Open the file `C:\Windows\System32\drivers\etc\hosts`
 
@@ -61,7 +67,7 @@ Open the file `C:\Windows\System32\drivers\etc\hosts`
 
 ***
 
-### Step 2
+### Step 5
 
 Add the following code snippet to the bottom and save the file.
 
@@ -74,7 +80,7 @@ Add the following code snippet to the bottom and save the file.
 
 ***
 
-### Step 3
+### Step 6
 
 If you are not able to save the file in that folder due to permission settings, first save the file to your Desktop.
 * Make sure that the file type selected is `All types (".")`
@@ -93,7 +99,7 @@ Your local development environment is now ready. We can now [download and setup 
 
 ***
 
-### Step 1
+### Step 7
 
 Download [GitHub for Windows](https://windows.github.com/).
 * GitHub for Windows allows you to easily download and manage your GitHub repositories from your own computer.
@@ -102,7 +108,7 @@ Download [GitHub for Windows](https://windows.github.com/).
 
 ***
 
-### Step 2
+### Step 8
 
 Go to the homepage for [thenewboston Social Network here](https://github.com/thenewboston-developers/thenewboston-Social-Network). On the top right of the page click "Fork". 
 * This will create a copy of the project to your GitHub account.
@@ -111,7 +117,7 @@ Go to the homepage for [thenewboston Social Network here](https://github.com/the
 
 ***
 
-### Step 3
+### Step 9
 
 Open GitHub for Windows and sign in to your GitHub account. Then click the plus button and you will be able to clone the repository for the project.
 * This will download the project to your computer
@@ -124,7 +130,7 @@ Make sure to clone the project into your `C:\xampp\htdocs\` directory
 
 ***
 
-### Step 4
+### Step 10
 
 Once all files have been downloaded, open up XAMPP and start Apache and MySQL.
 * When Apache and MySQL are running, your computer will act as a web server and you can host websites locally.
