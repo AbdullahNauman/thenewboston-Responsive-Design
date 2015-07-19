@@ -32,30 +32,35 @@
 					<?php if($parent == 'account'){ ?>
 
 						<!-- Stream -->
-						<li><a href="index.php">Home</a></li>
+						<li><a href="index.php">My Account</a></li>
 
-						<!-- My Info (dropdown) -->
+						<!-- Messages (dropdown) -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Information</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Basic Info</a></li>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Education</a></li>
-								<li><a href="#">Employment</a></li>
-								<li><a href="#">Links</a></li>
+								<li><a href="messages_inbox.php">Inbox</a></li>
+								<li><a href="messages_sent.php">Sent</a></li>
+								<li><a href="messages_trash.php">Trash</a></li>
+								<li><a href="messages_compose.php">Compose</a></li>
+								<li><a href="messages_read.php">Read (sample)</a></li>
 							</ul>
 						</li>
 
-						<!-- Settings (dropdown) -->
+						<!-- Profile -->
+						<li><a href="profile.php">Profile</a></li>
+
+						<!-- Popular (dropdown) -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Popular</a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Change Password</a></li>
-								<li><a href="#">Delete Account</a></li>
-								<li><a href="#">FAQ's</a></li>
-								<li><a href="#">Notification Settings</a></li>
+								<li><a href="#">Posts</a></li>
+								<li><a href="#">Images</a></li>
+								<li><a href="#">Videos</a></li>
 							</ul>
 						</li>
+
+						<!-- Search -->
+						<li><a href="#">Search</a></li>
 
 					<?php }elseif($parent == 'ads'){ ?>
 
@@ -94,11 +99,6 @@
 								<li><a href="#">Create New Category</a></li>
 							</ul>
 						</li>
-
-					<?php }elseif($parent == 'profile'){ ?>
-
-						<!-- Profile -->
-						<li><a href="index.php">Home</a></li>
 
 					<?php }elseif($parent == 'shop'){ ?>
 
@@ -243,7 +243,7 @@
 							<!-- Button being displayed -->
 							<?php if($parent == 'account'){ ?>
 								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
-										class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a>
+										class="dropdown-icon fa fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a>
 							<?php }elseif($parent == 'ads'){ ?>
 								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
 										class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a>
@@ -253,9 +253,6 @@
 							<?php }elseif($parent == 'forum'){ ?>
 								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
 										class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a>
-							<?php }elseif($parent == 'profile'){ ?>
-								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
-										class="dropdown-icon fa fa-user"></i>&nbsp;&nbsp;&nbsp;Profile</a>
 							<?php }elseif($parent == 'shop'){ ?>
 								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
 										class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a>
@@ -272,22 +269,14 @@
 							<?php } ?>
 
 							<ul class="dropdown-menu">
-								<li><a href="../account/index.php"><i class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a>
-								</li>
-								<li><a href="../ads/index.php"><i class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a>
-								</li>
-								<li><a href="../developers/index.php"><i class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a>
-								</li>
-								<li><a href="../forum/index.php"><i class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a>
-								</li>
-								<li><a href="../profile/index.php"><i class="dropdown-icon fa fa-user"></i>&nbsp;&nbsp;&nbsp;Profile</a>
-								</li>
-								<li><a href="../shop/index.php"><i class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a>
-								</li>
-								<li><a href="../trade/index.php"><i class="dropdown-icon fa fa-refresh"></i>&nbsp;&nbsp;&nbsp;Trade</a>
-								</li>
-								<li><a href="../videos/index.php"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp;&nbsp;Videos</a>
-								</li>
+								<li><a href="../account/index.php"><i class="dropdown-icon fa fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a></li>
+								<li class="divider"></li>
+								<li><a href="../ads/index.php"><i class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a></li>
+								<li><a href="../developers/index.php"><i class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a></li>
+								<li><a href="../forum/index.php"><i class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a></li>
+								<li><a href="../shop/index.php"><i class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a></li>
+								<li><a href="../trade/index.php"><i class="dropdown-icon fa fa-refresh"></i>&nbsp;&nbsp;&nbsp;Trade</a></li>
+								<li><a href="../videos/index.php"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp;&nbsp;Videos</a></li>
 								<li class="divider"></li>
 								<li><a href="#">Logout</a></li>
 							</ul>

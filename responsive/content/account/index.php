@@ -24,21 +24,33 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_template.php"); ?>
+	<?php include("../../panel/left_account_home.php"); ?>
 
 	<div id="content-wrapper">
 
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Account Home (Stream)</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Stream</h1>
+				<div class="col-xs-12 col-sm-8">
+					<div class="row">
+						<hr class="visible-xs no-grid-gutter-h">
+						<div class="visible-xs clearfix form-group-margin"></div>
+						<form action="" class="pull-right col-xs-12 col-sm-6">
+							<div class="input-group no-margin">
+								<span class="input-group-addon" style="border:none;background: #fff;background: rgba(0,0,0,.05);"><i class="fa fa-search"></i></span>
+								<input type="text" placeholder="Search..." class="form-control no-padding-hr" style="border:none;background: #fff;background: rgba(0,0,0,.05);">
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-xs-12">
 				<p>
-					<?php echo(basename(__DIR__)); ?>
+					stream
 				</p>
 			</div>
 		</div>
