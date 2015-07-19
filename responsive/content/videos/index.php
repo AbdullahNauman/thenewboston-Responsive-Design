@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>thenewboston</title>
+	<title>Videos</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Developers Home</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Videos Home</h1>
 			</div>
 		</div>
 

@@ -27,41 +27,78 @@
 				<!-- Left buttons -->
 				<ul class="nav navbar-nav">
 
-					<!-- Account (dropdown) -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Basic Info</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Employment</a></li>
-							<li><a href="#">Links</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Change Password</a></li>
-							<li><a href="#">Delete Account</a></li>
-							<li><a href="#">FAQ's</a></li>
-							<li><a href="#">Notification Settings</a></li>
-						</ul>
-					</li>
+					<?php $parent = basename(dirname($_SERVER['PHP_SELF'])); ?>
 
-					<!-- Forum -->
-					<li><a href="#">Forum</a></li>
+					<?php if($parent == 'account'){ ?>
 
-					<!-- Pages -->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Bitcoin</a></li>
-							<li><a href="#">Funny Videos</a></li>
-							<li><a href="#">Penguins</a></li>
-						</ul>
-					</li>
+						<!-- Stream -->
+						<li><a href="index.php">Home</a></li>
 
-					<!-- Stream -->
-					<li><a href="#">Stream</a></li>
+						<!-- My Info (dropdown) -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Information</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Basic Info</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Education</a></li>
+								<li><a href="#">Employment</a></li>
+								<li><a href="#">Links</a></li>
+							</ul>
+						</li>
 
-					<!-- Video Tutorials -->
-					<li><a href="#">Videos & Tutorials</a></li>
+						<!-- Settings (dropdown) -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Change Password</a></li>
+								<li><a href="#">Delete Account</a></li>
+								<li><a href="#">FAQ's</a></li>
+								<li><a href="#">Notification Settings</a></li>
+							</ul>
+						</li>
+
+					<?php }elseif($parent == 'ads'){ ?>
+
+						<!-- Ads -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }elseif($parent == 'developers'){ ?>
+
+						<!-- Account -->
+						<li><a href="index.php">Home</a></li>
+						<li><a href="api_documentation.php">API Docs</a></li>
+						<li><a href="#">Tutorials</a></li>
+
+					<?php }elseif($parent == 'forum'){ ?>
+
+						<!-- Forum -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }elseif($parent == 'profile'){ ?>
+
+						<!-- Profile -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }elseif($parent == 'shop'){ ?>
+
+						<!-- Shop -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }elseif($parent == 'trade'){ ?>
+
+						<!-- Trade -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }elseif($parent == 'videos'){ ?>
+
+						<!-- Videos -->
+						<li><a href="index.php">Home</a></li>
+
+					<?php }else{ ?>
+
+						<li><a href="#"><?php echo($parent); ?></a></li>
+
+					<?php } ?>
 
 				</ul>
 
@@ -144,7 +181,7 @@
 										<a href="#" class="message-subject">Party at my house this weekend</a>
 
 										<div class="message-description">
-											from <a href="#">wheatley core</a> &nbsp;&nbsp;Â·&nbsp;&nbsp; 2h ago
+											from <a href="#">wheatley core</a> &nbsp;&nbsp;·&nbsp;&nbsp; 2h ago
 										</div>
 									</div>
 
@@ -156,7 +193,7 @@
 										<a href="#" class="message-subject">Help with homework assignment</a>
 
 										<div class="message-description">
-											from <a href="#">Melissa Ries</a> &nbsp;&nbsp;Â·&nbsp;&nbsp; 3h ago
+											from <a href="#">Melissa Ries</a> &nbsp;&nbsp;·&nbsp;&nbsp; 3h ago
 										</div>
 									</div>
 
@@ -167,20 +204,55 @@
 
 						<!-- Right profile button -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown">
-								<img
-									src="https://www.thenewboston.com/photos/users/2/resized/23471ba4417d650505928a0b1f1fd8b1.jpg">
-								<span>Bucky Roberts</span>
-							</a>
+
+							<!-- Button being displayed -->
+							<?php if($parent == 'account'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a>
+							<?php }elseif($parent == 'ads'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a>
+							<?php }elseif($parent == 'developers'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a>
+							<?php }elseif($parent == 'forum'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a>
+							<?php }elseif($parent == 'profile'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-user"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+							<?php }elseif($parent == 'shop'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a>
+							<?php }elseif($parent == 'trade'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-refresh"></i>&nbsp;&nbsp;&nbsp;Trade</a>
+							<?php }elseif($parent == 'videos'){ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp;&nbsp;Videos</a>
+							<?php }else{ ?>
+								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown"><i
+										class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;<?php echo($parent); ?>
+								</a>
+							<?php } ?>
+
 							<ul class="dropdown-menu">
-								<li><a href="#"><i class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a></li>
-								<li><a href="http://tnb-res.com/responsive/content/ads/_marketplace.php"><i class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a></li>
-								<li><a href="http://tnb-res.com/responsive/content/developers/index.php"><i class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a></li>
-								<li><a href="#"><i class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a></li>
-								<li><a href="#"><i class="dropdown-icon fa fa-user"></i>&nbsp;&nbsp;&nbsp;Profile</a></li>
-								<li><a href="#"><i class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a></li>
-								<li><a href="#"><i class="dropdown-icon fa fa-refresh"></i>&nbsp;&nbsp;&nbsp;Trade</a></li>
-								<li><a href="#"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp;&nbsp;Videos</a></li>
+								<li><a href="../account/index.php"><i class="dropdown-icon fa fa-cog"></i>&nbsp;&nbsp;&nbsp;Account</a>
+								</li>
+								<li><a href="../ads/index.php"><i class="dropdown-icon fa fa-globe"></i>&nbsp;&nbsp;&nbsp;Ads</a>
+								</li>
+								<li><a href="../developers/index.php"><i class="dropdown-icon fa fa-code"></i>&nbsp;&nbsp;&nbsp;Developers</a>
+								</li>
+								<li><a href="../forum/index.php"><i class="dropdown-icon fa fa-comment"></i>&nbsp;&nbsp;&nbsp;Forum</a>
+								</li>
+								<li><a href="../profile/index.php"><i class="dropdown-icon fa fa-user"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+								</li>
+								<li><a href="../shop/index.php"><i class="dropdown-icon fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;Shop</a>
+								</li>
+								<li><a href="../trade/index.php"><i class="dropdown-icon fa fa-refresh"></i>&nbsp;&nbsp;&nbsp;Trade</a>
+								</li>
+								<li><a href="../videos/index.php"><i class="dropdown-icon fa fa-youtube-play"></i>&nbsp;&nbsp;&nbsp;Videos</a>
+								</li>
 								<li class="divider"></li>
 								<li><a href="#">Logout</a></li>
 							</ul>

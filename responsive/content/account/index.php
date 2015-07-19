@@ -31,7 +31,7 @@
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Developers Home</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Account Home (Stream)</h1>
 			</div>
 		</div>
 

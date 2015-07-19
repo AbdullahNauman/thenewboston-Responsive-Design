@@ -29,17 +29,17 @@
 				</a>
 				<ul>
 					<li>
-						<a tabindex="-1" href="http://tnb-res.com/responsive/content/ads/_advertiser_ads.php">
+						<a tabindex="-1" href="advertiser_ads.php">
 							<span class="mm-text">Ads</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="http://tnb-res.com/responsive/content/ads/_advertiser_offers_made.php">
+						<a tabindex="-1" href="advertiser_offers_made.php">
 							<span class="mm-text">Offers Made</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="http://tnb-res.com/responsive/content/ads/_advertiser_purchases.php">
+						<a tabindex="-1" href="advertiser_purchases.php">
 							<span class="mm-text">Purchases</span>
 						</a>
 					</li>
@@ -55,12 +55,12 @@
 				</a>
 				<ul>
 					<li>
-						<a tabindex="-1" href="http://tnb-res.com/responsive/content/ads/_publisher_units.php">
+						<a tabindex="-1" href="publisher_units.php">
 							<span class="mm-text">Units</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="http://tnb-res.com/responsive/content/ads/_publisher_offers_received.php">
+						<a tabindex="-1" href="publisher_offers_received.php">
 							<span class="mm-text">Offers Received</span>
 							<span class="label label-success">2</span>
 						</a>
@@ -70,7 +70,7 @@
 
 			<!-- Bitcoin wallet -->
 			<li>
-				<a href="http://tnb-res.com/responsive/content/ads/_bitcoin_wallet.php">
+				<a href="bitcoin_wallet.php">
 					<i class="menu-icon fa fa-btc"></i>
 					<span class="mm-text">Bitcoin Wallet</span>
 				</a>
@@ -80,7 +80,7 @@
 
 		<!-- Marketplace -->
 		<div class="menu-content">
-			<a href="http://tnb-res.com/responsive/content/ads/_marketplace.php" class="btn btn-labeled btn-block btn-primary">
+			<a href="marketplace.php" class="btn btn-labeled btn-block btn-primary">
 				<span class="btn-label icon fa fa-shopping-cart" style="margin-right: 0;"></span>Marketplace
 			</a>
 		</div>

@@ -23,7 +23,7 @@
 <body class="theme-default main-menu-animated">
 <script>var init = [];</script>
 <div id="main-wrapper">
-	<?php include("../../panel/top_developers.php"); ?>
+	<?php include("../../panel/top_nav.php"); ?>
 	<?php include("../../panel/left_developers.php"); ?>
 
 	<div id="content-wrapper">

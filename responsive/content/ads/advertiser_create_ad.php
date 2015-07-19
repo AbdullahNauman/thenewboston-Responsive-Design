@@ -24,7 +24,7 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_menu.php"); ?>
+	<?php include("../../panel/left_ads.php"); ?>
 
 	<div id="content-wrapper">
 

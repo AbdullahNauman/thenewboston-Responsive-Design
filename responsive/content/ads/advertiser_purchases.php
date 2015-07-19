@@ -24,7 +24,7 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_menu.php"); ?>
+	<?php include("../../panel/left_ads.php"); ?>
 
 	<div id="content-wrapper">
 
@@ -36,7 +36,7 @@
 					<div class="row">
 						<hr class="visible-xs no-grid-gutter-h">
 						<div class="pull-right col-xs-12 col-sm-auto">
-							<a href="_advertiser_create_ad.php" class="btn btn-primary btn-labeled" style="width: 100%;">
+							<a href="advertiser_create_ad.php" class="btn btn-primary btn-labeled" style="width: 100%;">
 								<span class="btn-label icon fa fa-plus"></span>
 								Create New Ad
 							</a>

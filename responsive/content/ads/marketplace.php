@@ -24,7 +24,7 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_menu.php"); ?>
+	<?php include("../../panel/left_ads.php"); ?>
 
 	<div id="content-wrapper">
 
@@ -245,7 +245,7 @@
 									<tbody>
 									<tr>
 										<td class="valign-top">
-											<a href="_unit_details.php">
+											<a href="unit_details.php">
 											<img class="item-thumbnail" src="https://static.servedby-buysellads.com/pub/nosvn/uploads/screenshots/1c1b6778362db412d09e7d7912abc478_400x300.jpg?v=1409673687">
 											</a>
 										</td>

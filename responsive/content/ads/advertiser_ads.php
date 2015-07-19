@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Offers Made</title>
+	<title>My Ads</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -24,23 +24,35 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_menu.php"); ?>
+	<?php include("../../panel/left_ads.php"); ?>
 
 	<div id="content-wrapper">
 
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Offers Made</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">My Ads</h1>
+				<div class="col-xs-12 col-sm-8">
+					<div class="row">
+						<hr class="visible-xs no-grid-gutter-h">
+						<div class="pull-right col-xs-12 col-sm-auto">
+							<a href="advertiser_create_ad.php" class="btn btn-primary btn-labeled" style="width: 100%;">
+								<span class="btn-label icon fa fa-plus"></span>
+								Create New Ad
+							</a>
+						</div>
+						<div class="visible-xs clearfix form-group-margin"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="row above-ads-table">
 			<div class="col-xs-6">
-				<button class="btn btn-labeled btn-danger"><span class="btn-label icon fa fa-close"></span>Revoke</button>
+				<button class="btn btn-labeled btn-danger"><span class="btn-label icon fa fa-close"></span>Delete</button>
 			</div>
 			<div class="col-xs-6">
-				<h4 class="text-right">All offers made <small>(1 result)</small></h4>
+				<h4 class="text-right">All my advertisements <small>(2 results)</small></h4>
 			</div>
 		</div>
 
@@ -54,22 +66,23 @@
 					<th class="valign-bottom" style="margin-left: 1px;">
 						<label class="px-single"><input type="checkbox" name="" value="" class="px"><span class="lbl"></span></label>
 					</th>
-					<th>My Ad Details</th>
-					<th>Unit Overview</th>
-					<th>Unit Stats</th>
-					<th>Cost</th>
+					<th>Details</th>
+					<th>Status</th>
+					<th>Performance</th>
 					<th>Preview</th>
 				</tr>
 				</thead>
 
 				<!-- Table body -->
 				<tbody>
+
+				<!-- Ad 1 -->
 				<tr>
 
 					<!-- Checkbox -->
 					<td><label class="px-single"><input type="checkbox" name="" value="" class="px"><span class="lbl"></span></label></td>
 
-					<!-- My Ad Details -->
+					<!-- Details -->
 					<td>
 						<table class="ads-mini-details-table">
 							<tbody>
@@ -89,33 +102,33 @@
 						</table>
 					</td>
 
-					<!-- Publisher unit -->
+					<!-- Current Status -->
 					<td>
 						<table class="ads-mini-details-table">
 							<tbody>
 							<tr>
-								<td class="first-column">Website:</td>
-								<td class="second-column"><a href="https://www.thenewboston.com/">https://www.thenewboston.com/</a></td>
+								<td class="first-column">Running:</td>
+								<td class="second-column">3</td>
 							</tr>
 							<tr>
-								<td class="first-column">Category:</td>
-								<td class="second-column">Education</td>
+								<td class="first-column">Scheduled:</td>
+								<td class="second-column">1</td>
 							</tr>
 							<tr>
-								<td class="first-column">Owner:</td>
-								<td class="second-column"><a href="https://www.thenewboston.com/">Bucky Roberts</a></td>
+								<td class="first-column">Completed:</td>
+								<td class="second-column">17</td>
 							</tr>
 							</tbody>
 						</table>
 					</td>
 
-					<!-- Unit Stats -->
+					<!-- Performance -->
 					<td>
 						<table class="ads-mini-details-table">
 							<tbody>
 							<tr>
-								<td class="first-column">Avg DI:</td>
-								<td class="second-column">2,384</td>
+								<td class="first-column">Impressions:</td>
+								<td class="second-column">65,384</td>
 							</tr>
 							<tr>
 								<td class="first-column">Avg CTR:</td>
@@ -125,21 +138,80 @@
 						</table>
 					</td>
 
-					<!-- Cost -->
+					<!-- Preview -->
+					<td>
+						<a href="http://www.shakeout.org/">
+							<img src="http://www.shakeout.org/2008/downloads/ShakeOut_BannerAds_JoinUs_728x90_v2.gif" class="img-responsive">
+						</a>
+					</td>
+
+				</tr>
+
+				<!-- Ad 2 -->
+				<tr>
+
+					<!-- Checkbox -->
+					<td><label class="px-single"><input type="checkbox" name="" value="" class="px"><span class="lbl"></span></label></td>
+
+					<!-- Details -->
 					<td>
 						<table class="ads-mini-details-table">
 							<tbody>
 							<tr>
-								<td class="first-column">Days purchased:</td>
-								<td class="second-column">20</td>
+								<td class="first-column">Name:</td>
+								<td class="second-column">T-shirt Store Text Ad</td>
 							</tr>
 							<tr>
-								<td class="first-column">Price per day:</td>
-								<td class="second-column">8.00 <span class="text-xs">mBTC</span></td>
+								<td class="first-column">Title:</td>
+								<td class="second-column">Vintage T-Shirts from $19.99</td>
 							</tr>
 							<tr>
-								<td class="first-column">Total:</td>
-								<td class="text-success" style="padding-left:8px;"><strong>160.00 <span class="text-xs">mBTC</span></strong></td>
+								<td class="first-column">Description:</td>
+								<td class="second-column">Buy vintage t-shirts at a fantastic price, with no minimum quantity.</td>
+							</tr>
+							<tr>
+								<td class="first-column">URL:</td>
+								<td class="second-column"><a href="http://www.ae.com/web/index.jsp">http://www.ae.com/web/index.jsp</a></td>
+							</tr>
+							<tr>
+								<td class="first-column">Display URL:</td>
+								<td class="second-column"><a href="http://www.ae.com/web/index.jsp">ae.com</a></td>
+							</tr>
+							</tbody>
+						</table>
+					</td>
+
+					<!-- Current Status -->
+					<td>
+						<table class="ads-mini-details-table">
+							<tbody>
+							<tr>
+								<td class="first-column">Running:</td>
+								<td class="second-column">1</td>
+							</tr>
+							<tr>
+								<td class="first-column">Scheduled:</td>
+								<td class="second-column">0</td>
+							</tr>
+							<tr>
+								<td class="first-column">Completed:</td>
+								<td class="second-column">4</td>
+							</tr>
+							</tbody>
+						</table>
+					</td>
+
+					<!-- Performance -->
+					<td>
+						<table class="ads-mini-details-table">
+							<tbody>
+							<tr>
+								<td class="first-column">Impressions:</td>
+								<td class="second-column">20,055</td>
+							</tr>
+							<tr>
+								<td class="first-column">Avg CTR:</td>
+								<td class="second-column">1.21 %</td>
 							</tr>
 							</tbody>
 						</table>
@@ -148,7 +220,7 @@
 					<!-- Preview -->
 					<td>
 						<a href="http://www.shakeout.org/">
-							<img src="http://www.shakeout.org/2008/downloads/ShakeOut_BannerAds_JoinUs_728x90_v2.gif" class="img-responsive">
+							<img src="../../assets/images/pixel-admin/publisher_unit_sample.png" class="img-responsive">
 						</a>
 					</td>
 
