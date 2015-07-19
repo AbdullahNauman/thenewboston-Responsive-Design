@@ -15,8 +15,16 @@ Switcher = ($el, options={}) ->
 	if $el.is('input[type="checkbox"]')
 		box_class = $el.attr('data-class')
 		@$checkbox = $el
+
 		# Create container
-		@$box = $('<div class="switcher"><div class="switcher-toggler"></div><div class="switcher-inner"><div class="switcher-state-on">' + @options.on_state_content + '</div><div class="switcher-state-off">' + @options.off_state_content + '</div></div></div>')
+		@$box = $('
+		<div class="switcher"><div class="switcher-toggler"></div>
+			<div class="switcher-inner">
+				<div class="switcher-state-on">' + @options.on_state_content + '</div><div class="switcher-state-off">' + @options.off_state_content + '</div>
+			</div>
+		</div>
+		')
+
 		@$box.addClass('switcher-theme-' + @options.theme) if @options.theme
 		@$box.addClass(box_class) if box_class
 		@$box.insertAfter(@$checkbox).prepend(@$checkbox)
@@ -87,8 +95,8 @@ Switcher.prototype.toggle = ->
 # Default options
 Switcher.DEFAULTS =
 	theme: null               # Theme
-	on_state_content:  'ON'   # On-text (html allowed)
-	off_state_content: 'OFF'  # Off-text (html allowed)
+	on_state_content:  'PUBLIC'   # On-text (html allowed)
+	off_state_content: 'PRIVATE'  # Off-text (html allowed)
 
 # Initializer
 $.fn.switcher = (options, attrs) ->

@@ -84,8 +84,8 @@
 								</select>
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-gender" class="form-group-margin">
-									<input type="checkbox" data-class="switcher-primary">
+								<div id="switcher-gender">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
@@ -119,13 +119,11 @@
 									</div>
 								</div>
 							</div>
-
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-birthday" class="form-group-margin">
+								<div id="switcher-birthday">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
-
 						</div>
 
 						<!-- Relationship Status -->
@@ -139,7 +137,7 @@
 								</select>
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-relationship-status" class="form-group-margin">
+								<div id="switcher-relationship-status">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
@@ -152,7 +150,7 @@
 								<input type="text" class="form-control" id="">
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-religion" class="form-group-margin">
+								<div id="switcher-religion">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
@@ -165,7 +163,7 @@
 								<input type="text" class="form-control" id="">
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-political-views" class="form-group-margin">
+								<div id="switcher-political-views">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
@@ -178,7 +176,7 @@
 								<input type="text" class="form-control" id="">
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-birthplace" class="form-group-margin">
+								<div id="switcher-birthplace">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
@@ -191,7 +189,7 @@
 								<input type="text" class="form-control" id="">
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-current-city" class="form-group-margin">
+								<div id="switcher-current-city">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
