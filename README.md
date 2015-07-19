@@ -29,7 +29,7 @@ After XAMPP is installed, open the file `C:\xampp\apache\conf\extra\httpd-vhosts
 ### Step 3
 
 Add the following code snippet to the bottom.
-* This tells XAMPP that when we go to developers.thenewboston.com in our browser, take us to this folder
+* This tells XAMPP that when we go to tnb-res.com in our browser, take us to this folder
 
 ```
 ## Custom configuration
@@ -42,8 +42,8 @@ NameVirtualHost *:80
 </VirtualHost>
 
 <VirtualHost *:80>
-    DocumentRoot "C:/xampp/htdocs/thenewboston-Social-Network"
-    ServerName tnb-dev.com
+    DocumentRoot "C:/xampp/htdocs/thenewboston-Responsive-Design"
+    ServerName tnb-res.com
 </VirtualHost>
 ```
 
@@ -67,7 +67,7 @@ Add the following code snippet to the bottom and save the file.
 
 ```
 127.0.0.1       localhost
-127.0.0.1       tnb-dev.com
+127.0.0.1       tnb-res.com
 ```
 
 ![](http://i.imgur.com/TFqmgRE.png)
@@ -100,7 +100,7 @@ Download [GitHub for Windows](https://windows.github.com/).
 
 ### Step 8
 
-Go to the homepage for [thenewboston Social Network here](https://github.com/thenewboston-developers/thenewboston-Social-Network). On the top right of the page click "Fork". 
+On the top right of this page click "Fork". 
 * This will create a copy of the project to your GitHub account.
 
 ![](http://i.imgur.com/pcmhvEr.png)
@@ -129,6 +129,6 @@ Once all files have been downloaded, open up XAMPP and start Apache and MySQL.
 
 ***
 
-Setup is now complete! You can visit the site by going to: [http://tnb-dev.com/](http://tnb-dev.com/)
+Setup is now complete! You can visit the site by going to: [http://tnb-res.com/responsive/content/account/index.php](http://tnb-res.com/responsive/content/account/index.php)
 
 ![](http://i.imgur.com/mt3jzEM.png)
