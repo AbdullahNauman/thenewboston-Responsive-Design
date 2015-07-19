@@ -4,9 +4,9 @@ This project is for the responsive design for thenewboston website. A preview of
 
 http://104.131.1.2/content/account/index.php
 
-# Getting Started
+## Getting Started
 
-**First, we need to install and configure XAMPP so that we have a local environment for development.**
+First, we need to install and configure XAMPP so that we have a local environment for development.
 
 ***
 
