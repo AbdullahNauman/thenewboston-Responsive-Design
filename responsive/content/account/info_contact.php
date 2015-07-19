@@ -49,7 +49,7 @@
 				</script>
 
 				<!-- Email -->
-				<form class="panel panel-12 panel-dark form-horizontal">
+				<form class="panel form-horizontal">
 					<div class="panel-heading">
 						<span class="panel-title">Email</span>
 					</div>
@@ -88,7 +88,7 @@
 				</form>
 
 				<!-- Phone Numbers -->
-				<form class="panel panel-12 panel-dark form-horizontal">
+				<form class="panel form-horizontal">
 					<div class="panel-heading">
 						<span class="panel-title">Phone Numbers</span>
 					</div>
@@ -147,7 +147,7 @@
 				</form>
 
 				<!-- Usernames -->
-				<form class="panel panel-12 panel-dark form-horizontal">
+				<form class="panel form-horizontal">
 					<div class="panel-heading">
 						<span class="panel-title">Usernames</span>
 					</div>

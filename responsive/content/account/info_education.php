@@ -54,29 +54,29 @@
 					<div class="panel-body">
 
 						<!-- School 1 -->
-						<div class="form-group">
+						<div class="row">
 							<label for="" class="col-sm-2 control-label">School:</label>
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-sm-6">
-										<input type="text" class="form-control">
+										<input type="text" class="form-control form-group-margin">
 									</div>
 									<div class="col-sm-2">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">--</option>
 											<option value="1">1990</option>
 										</select>
 									</div>
-									<div class="col-sm-1 text-center" style="padding-top: 7px;">
+									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
 										to
 									</div>
 									<div class="col-sm-2">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">--</option>
 											<option value="1">1990</option>
 										</select>
 									</div>
-									<div class="col-sm-1">
+									<div class="col-sm-1 form-group-margin">
 										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
 									</div>
 								</div>
@@ -89,29 +89,29 @@
 						</div>
 
 						<!-- School 2 -->
-						<div class="form-group">
+						<div class="row">
 							<label for="" class="col-sm-2 control-label">School:</label>
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-sm-6">
-										<input type="text" class="form-control">
+										<input type="text" class="form-control form-group-margin">
 									</div>
 									<div class="col-sm-2">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">--</option>
 											<option value="1">1990</option>
 										</select>
 									</div>
-									<div class="col-sm-1 text-center" style="padding-top: 7px;">
+									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
 										to
 									</div>
 									<div class="col-sm-2">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">--</option>
 											<option value="1">1990</option>
 										</select>
 									</div>
-									<div class="col-sm-1">
+									<div class="col-sm-1 form-group-margin">
 										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
 									</div>
 								</div>
