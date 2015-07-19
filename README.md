@@ -47,7 +47,7 @@ NameVirtualHost *:80
 </VirtualHost>
 ```
 
-![](http://i.imgur.com/4tQLlke.png)
+![](http://i.imgur.com/c802j58.png)
 
 ***
 
@@ -70,7 +70,7 @@ Add the following code snippet to the bottom and save the file.
 127.0.0.1       tnb-res.com
 ```
 
-![](http://i.imgur.com/TFqmgRE.png)
+![](http://i.imgur.com/V83y292.png)
 
 ***
 
