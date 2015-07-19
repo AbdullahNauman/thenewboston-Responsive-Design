@@ -112,7 +112,7 @@ On the top right of this page click "Fork".
 Open GitHub for Windows and sign in to your GitHub account. Then click the plus button and you will be able to clone the repository for the project.
 * This will download the project to your computer
 
-![](http://i.imgur.com/Uli8pWn.png)
+![](http://i.imgur.com/djnM0lF.png)
 
 Make sure to clone the project into your `C:\xampp\htdocs\` directory
 
