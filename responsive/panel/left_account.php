@@ -72,22 +72,22 @@
 				</a>
 				<ul>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="change_password.php">
 							<span class="mm-text">Change Password</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="delete_account.php">
 							<span class="mm-text">Delete Account</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="faqs.php">
 							<span class="mm-text">FAQ's</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="notification_settings.php">
 							<span class="mm-text">Notification Settings</span>
 						</a>
 					</li>
