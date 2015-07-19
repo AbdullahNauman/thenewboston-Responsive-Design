@@ -8,8 +8,6 @@ http://104.131.1.2/content/account/index.php
 
 First, we need to install and configure XAMPP so that we have a local environment for development.
 
-***
-
 ### Step 1
 
 Download and install XAMPP from [the official XAMPP website](https://www.apachefriends.org/index.html).
