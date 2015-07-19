@@ -7,7 +7,9 @@
 
 	<title>Links</title>
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+	<link
+		href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin"
+		rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/pixel-admin.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/widgets.min.css" rel="stylesheet" type="text/css">
@@ -55,45 +57,76 @@
 
 						<!-- Link 1 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">Link:</label>
-							<div class="col-sm-4">
-								<input type="text" class="form-control form-group-margin" placeholder="Title">
-							</div>
-							<div class="col-sm-4">
-								<input type="text" class="form-control form-group-margin" placeholder="URL">
-							</div>
-							<div class="col-sm-1" style="padding-top: 4px;">
-								<div id="switcher-link-1">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+							<div class="form-group form-group-container">
+								
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">Link:</label>
+
+								<!-- Title -->
+								<div class="col-sm-4">
+									<input type="text" class="form-control form-item" placeholder="Title">
 								</div>
-							</div>
-							<div class="col-sm-1 form-group-margin">
-								<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+
+								<!-- URL -->
+								<div class="col-sm-4">
+									<input type="text" class="form-control form-item" placeholder="URL">
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-link-1" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
+									</div>
+								</div>
+
+								<!-- Trash -->
+								<div class="col-sm-1 form-item">
+									<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+								</div>
+								
 							</div>
 						</div>
 
 						<!-- Link 2 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">Link:</label>
-							<div class="col-sm-4">
-								<input type="text" class="form-control form-group-margin" placeholder="Title">
-							</div>
-							<div class="col-sm-4">
-								<input type="text" class="form-control form-group-margin" placeholder="URL">
-							</div>
-							<div class="col-sm-1" style="padding-top: 4px;">
-								<div id="switcher-link-2">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+							<div class="form-group form-group-container">
+
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">Link:</label>
+
+								<!-- Title -->
+								<div class="col-sm-4">
+									<input type="text" class="form-control form-item" placeholder="Title">
 								</div>
-							</div>
-							<div class="col-sm-1 form-group-margin">
-								<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+
+								<!-- URL -->
+								<div class="col-sm-4">
+									<input type="text" class="form-control form-item" placeholder="URL">
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-link-2" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
+									</div>
+								</div>
+
+								<!-- Trash -->
+								<div class="col-sm-1 form-item">
+									<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+								</div>
+
 							</div>
 						</div>
 
+						<!-- Add New button -->
 						<div class="row">
-							<div class="col-sm-offset-2 col-sm-8">
-								<button class="btn btn-sm btn-labeled btn-success"><span class="btn-label icon fa fa-plus"></span>Add New</button>
+							<div class="form-group form-group-container">
+								<div class="col-sm-offset-2 col-sm-8">
+									<button class="btn btn-sm btn-labeled btn-success form-item">
+										<span class="btn-label icon fa fa-plus"></span>Add New
+									</button>
+								</div>
 							</div>
 						</div>
 

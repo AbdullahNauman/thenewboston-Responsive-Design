@@ -88,6 +88,19 @@ optgroup{
 	@include clearfix();
 }
 
+.form-group-container{
+	margin-bottom: 0;
+
+	.privacy-switcher{
+		padding-top: 4px;
+	}
+
+	.form-item{
+		margin-bottom: 15px;
+	}
+
+}
+
 .form-group.has-error{
 	.checkbox .help-block,
 	.radio .help-block,

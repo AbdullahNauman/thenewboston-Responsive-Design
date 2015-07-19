@@ -55,7 +55,6 @@
 								$('#switcher-current-city').find('> input').switcher();
 							});
 						</script>
-						<!-- / Javascript -->
 
 						<!-- First Name -->
 						<div class="form-group">
@@ -74,44 +73,44 @@
 						</div>
 
 						<!-- Gender -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Gender:</label>
 							<div class="col-sm-8">
-								<select class="form-control">
+								<select class="form-control form-item">
 									<option value="" disabled="" selected="">-- Select --</option>
 									<option value="1">Male</option>
 									<option value="2">Female</option>
 								</select>
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-gender">
+							<div class="col-sm-2">
+								<div id="switcher-gender" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Birthday -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Birthday:</label>
 
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-sm-4">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">-- Month --</option>
 											<option value="1">March</option>
 											<option value="2">April</option>
 										</select>
 									</div>
 									<div class="col-sm-4">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">-- Day --</option>
 											<option value="1">1</option>
 											<option value="2">2</option>
 										</select>
 									</div>
 									<div class="col-sm-4">
-										<select class="form-control">
+										<select class="form-control form-group-margin">
 											<option value="" disabled="" selected="">-- Year --</option>
 											<option value="1">1990</option>
 											<option value="2">1991</option>
@@ -119,77 +118,77 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-birthday">
+							<div class="col-sm-2">
+								<div id="switcher-birthday" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Relationship Status -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Relationship Status:</label>
 							<div class="col-sm-8">
-								<select class="form-control">
+								<select class="form-control form-item">
 									<option value="" disabled="" selected="">-- Select --</option>
 									<option value="1">Male</option>
 									<option value="2">Female</option>
 								</select>
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-relationship-status">
+							<div class="col-sm-2">
+								<div id="switcher-relationship-status" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Religion -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Religion:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-religion">
+							<div class="col-sm-2">
+								<div id="switcher-religion" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Political Views -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Political Views:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-political-views">
+							<div class="col-sm-2">
+								<div id="switcher-political-views" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Birthplace -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Birthplace:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-birthplace">
+							<div class="col-sm-2">
+								<div id="switcher-birthplace" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Current City -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Current City:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-current-city">
+							<div class="col-sm-2">
+								<div id="switcher-current-city" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>

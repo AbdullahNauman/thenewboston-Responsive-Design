@@ -56,12 +56,12 @@
 					<div class="panel-body">
 
 						<!-- Email -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Email:</label>
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-sm-8">
-										<input type="text" class="form-control" placeholder="bacon@gmail.com" disabled="">
+										<input type="text" class="form-control form-item" placeholder="bacon@gmail.com" disabled="">
 									</div>
 									<div class="col-sm-4">
 										<select class="form-control">
@@ -95,39 +95,39 @@
 					<div class="panel-body">
 
 						<!-- Cell Phone -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Cell Phone:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-cell-phone">
+							<div class="col-sm-2">
+								<div id="switcher-cell-phone" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Home Phone -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Home Phone:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-home-phone">
+							<div class="col-sm-2">
+								<div id="switcher-home-phone" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
 						</div>
 
 						<!-- Work Phone -->
-						<div class="form-group">
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Work Phone:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="">
+								<input type="text" class="form-control form-item" id="">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-work-phone">
+							<div class="col-sm-2">
+								<div id="switcher-work-phone" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
 							</div>
@@ -153,31 +153,32 @@
 					</div>
 					<div class="panel-body">
 
-						<!-- Usernames -->
-						<div class="form-group">
+						<!-- Username 1 -->
+						<div class="form-group form-group-container">
 							<label for="" class="col-sm-2 control-label">Username:</label>
-
-							<div class="col-sm-8">
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" class="form-control">
-									</div>
-									<div class="col-sm-5">
-										<select class="form-control">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">GitHub</option>
-											<option value="2">Skype</option>
-										</select>
-									</div>
-									<div class="col-sm-1">
-										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
-									</div>
-								</div>
+							<div class="col-sm-4">
+								<input type="text" class="form-control form-item">
 							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-username-1">
+							<div class="col-sm-4">
+								<select class="form-control form-item">
+									<option value="1">GitHub</option>
+									<option value="2">Skype</option>
+								</select>
+							</div>
+							<div class="col-sm-1">
+								<div id="switcher-username-1" class="privacy-switcher form-item">
 									<input type="checkbox" data-class="switcher-primary" checked="checked">
 								</div>
+							</div>
+							<div class="col-sm-1">
+								<button type="button" class="btn form-item"><i class="fa fa-trash"></i></button>
+							</div>
+						</div>
+
+						<!-- Add New button -->
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button class="btn btn-sm btn-labeled btn-success form-item"><span class="btn-label icon fa fa-plus"></span>Add New</button>
 							</div>
 						</div>
 

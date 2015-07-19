@@ -5,9 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Employment</title>
+	<title>Employment History</title>
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+	<link
+		href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin"
+		rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/pixel-admin.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/widgets.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +33,7 @@
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Employment</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Employment History</h1>
 			</div>
 		</div>
 
@@ -46,86 +48,119 @@
 					});
 				</script>
 
-				<!-- Employment -->
+				<!-- Employment History -->
 				<form class="panel form-horizontal">
 					<div class="panel-heading">
-						<span class="panel-title">Employment</span>
+						<span class="panel-title">Employment History</span>
 					</div>
 					<div class="panel-body">
 
 						<!-- Employer 1 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">Employer:</label>
-							<div class="col-sm-8">
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" class="form-control form-group-margin">
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
-										to
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 form-group-margin">
-										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+							<div class="form-group form-group-container">
+
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">Employer:</label>
+
+								<!-- Name -->
+								<div class="col-sm-3">
+									<input type="text" class="form-control form-item">
+								</div>
+
+								<!-- Start -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- to -->
+								<div class="col-sm-1 text-center form-item" style="padding-top: 7px;">
+									to
+								</div>
+
+								<!-- End -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-employer-1" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
 									</div>
 								</div>
-							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-employer-1">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+
+								<!-- Trash -->
+								<div class="col-sm-1">
+									<button type="button" class="btn form-item"><i class="fa fa-trash"></i>
+									</button>
 								</div>
+
 							</div>
 						</div>
 
 						<!-- Employer 2 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">Employer:</label>
-							<div class="col-sm-8">
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" class="form-control form-group-margin">
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
-										to
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 form-group-margin">
-										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+							<div class="form-group form-group-container">
+
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">Employer:</label>
+
+								<!-- Name -->
+								<div class="col-sm-3">
+									<input type="text" class="form-control form-item">
+								</div>
+
+								<!-- Start -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- to -->
+								<div class="col-sm-1 text-center form-item" style="padding-top: 7px;">
+									to
+								</div>
+
+								<!-- End -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-employer-2" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
 									</div>
 								</div>
-							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-employer-2">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+
+								<!-- Trash -->
+								<div class="col-sm-1">
+									<button type="button" class="btn form-item"><i class="fa fa-trash"></i>
+									</button>
 								</div>
+
 							</div>
 						</div>
 
+						<!-- Add New button -->
 						<div class="row">
-							<div class="col-sm-offset-2 col-sm-8">
-								<button class="btn btn-sm btn-labeled btn-success"><span class="btn-label icon fa fa-plus"></span>Add New</button>
+							<div class="form-group form-group-container">
+								<div class="col-sm-offset-2 col-sm-8">
+									<button class="btn btn-sm btn-labeled btn-success form-item">
+										<span class="btn-label icon fa fa-plus"></span>Add New
+									</button>
+								</div>
 							</div>
 						</div>
 

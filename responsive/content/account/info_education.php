@@ -7,7 +7,9 @@
 
 	<title>Education</title>
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+	<link
+		href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin"
+		rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/pixel-admin.min.css" rel="stylesheet" type="text/css">
 	<link href="../../assets/stylesheets/widgets.min.css" rel="stylesheet" type="text/css">
@@ -55,77 +57,110 @@
 
 						<!-- School 1 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">School:</label>
-							<div class="col-sm-8">
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" class="form-control form-group-margin">
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
-										to
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 form-group-margin">
-										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+							<div class="form-group form-group-container">
+
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">School:</label>
+
+								<!-- Name -->
+								<div class="col-sm-3">
+									<input type="text" class="form-control form-item">
+								</div>
+
+								<!-- Start -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- to -->
+								<div class="col-sm-1 text-center form-item" style="padding-top: 7px;">
+									to
+								</div>
+
+								<!-- End -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-school-1" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
 									</div>
 								</div>
-							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-school-1">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+
+								<!-- Trash -->
+								<div class="col-sm-1">
+									<button type="button" class="btn form-item"><i class="fa fa-trash"></i>
+									</button>
 								</div>
+
 							</div>
 						</div>
 
 						<!-- School 2 -->
 						<div class="row">
-							<label for="" class="col-sm-2 control-label">School:</label>
-							<div class="col-sm-8">
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" class="form-control form-group-margin">
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 text-center form-group-margin" style="padding-top: 7px;">
-										to
-									</div>
-									<div class="col-sm-2">
-										<select class="form-control form-group-margin">
-											<option value="" disabled="" selected="">--</option>
-											<option value="1">1990</option>
-										</select>
-									</div>
-									<div class="col-sm-1 form-group-margin">
-										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+							<div class="form-group form-group-container">
+
+								<!-- Label -->
+								<label for="" class="col-sm-2 control-label">School:</label>
+
+								<!-- Name -->
+								<div class="col-sm-3">
+									<input type="text" class="form-control form-item">
+								</div>
+
+								<!-- Start -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- to -->
+								<div class="col-sm-1 text-center form-item" style="padding-top: 7px;">
+									to
+								</div>
+
+								<!-- End -->
+								<div class="col-sm-2">
+									<select class="form-control form-item">
+										<option value="" disabled="" selected="">--</option>
+										<option value="1">1990</option>
+									</select>
+								</div>
+
+								<!-- Switcher -->
+								<div class="col-sm-1">
+									<div id="switcher-school-2" class="privacy-switcher form-item">
+										<input type="checkbox" data-class="switcher-primary" checked="checked">
 									</div>
 								</div>
-							</div>
-							<div class="col-sm-2" style="padding-top: 4px;">
-								<div id="switcher-school-2">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+
+								<!-- Trash -->
+								<div class="col-sm-1">
+									<button type="button" class="btn form-item"><i class="fa fa-trash"></i>
+									</button>
 								</div>
+
 							</div>
 						</div>
 
+						<!-- Add New button -->
 						<div class="row">
-							<div class="col-sm-offset-2 col-sm-8">
-								<button class="btn btn-sm btn-labeled btn-success"><span class="btn-label icon fa fa-plus"></span>Add New</button>
+							<div class="form-group form-group-container">
+								<div class="col-sm-offset-2 col-sm-8">
+									<button class="btn btn-sm btn-labeled btn-success form-item">
+										<span class="btn-label icon fa fa-plus"></span>Add New
+									</button>
+								</div>
 							</div>
 						</div>
 
