@@ -14,6 +14,6 @@ module.exports = function (grunt){
         cssmin: require('./tasks/cssmin')(paths.css_dest)
     });
 
-    grunt.registerTask('default', ['sass:build', 'cssmin:minify']);
+    grunt.registerTask('default', ['coffee:compile', 'uglify:minify', 'sass:build', 'cssmin:minify']);
 
 };
