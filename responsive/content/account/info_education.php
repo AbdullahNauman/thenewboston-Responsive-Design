@@ -36,7 +36,112 @@
 		</div>
 
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-lg-10">
+
+				<!-- Javascript -->
+				<script>
+					init.push(function () {
+						$('#switcher-school-1').find('> input').switcher();
+						$('#switcher-school-2').find('> input').switcher();
+					});
+				</script>
+
+				<!-- Education -->
+				<form class="panel form-horizontal">
+					<div class="panel-heading">
+						<span class="panel-title">Education</span>
+					</div>
+					<div class="panel-body">
+
+						<!-- School 1 -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">School:</label>
+							<div class="col-sm-8">
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" class="form-control">
+									</div>
+									<div class="col-sm-2">
+										<select class="form-control">
+											<option value="" disabled="" selected="">--</option>
+											<option value="1">1990</option>
+										</select>
+									</div>
+									<div class="col-sm-1 text-center" style="padding-top: 7px;">
+										to
+									</div>
+									<div class="col-sm-2">
+										<select class="form-control">
+											<option value="" disabled="" selected="">--</option>
+											<option value="1">1990</option>
+										</select>
+									</div>
+									<div class="col-sm-1">
+										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-school-1">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+						<!-- School 2 -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">School:</label>
+							<div class="col-sm-8">
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" class="form-control">
+									</div>
+									<div class="col-sm-2">
+										<select class="form-control">
+											<option value="" disabled="" selected="">--</option>
+											<option value="1">1990</option>
+										</select>
+									</div>
+									<div class="col-sm-1 text-center" style="padding-top: 7px;">
+										to
+									</div>
+									<div class="col-sm-2">
+										<select class="form-control">
+											<option value="" disabled="" selected="">--</option>
+											<option value="1">1990</option>
+										</select>
+									</div>
+									<div class="col-sm-1">
+										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-school-2">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button class="btn btn-sm btn-labeled btn-success"><span class="btn-label icon fa fa-plus"></span>Add New</button>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Submit button -->
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
 			</div>
 		</div>
 

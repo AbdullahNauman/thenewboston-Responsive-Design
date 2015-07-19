@@ -39,7 +39,7 @@
 			<div class="col-xs-12 col-lg-8">
 				<form class="panel form-horizontal">
 					<div class="panel-heading">
-						<span class="panel-title">Form example</span>
+						<span class="panel-title">Basic Information</span>
 					</div>
 					<div class="panel-body">
 
@@ -196,7 +196,7 @@
 						</div>
 
 						<!-- Timezone -->
-						<div class="form-group" style="margin-bottom: 0;">
+						<div class="form-group">
 							<label for="" class="col-sm-2 control-label">Timezone:</label>
 							<div class="col-sm-8">
 								<select class="form-control">

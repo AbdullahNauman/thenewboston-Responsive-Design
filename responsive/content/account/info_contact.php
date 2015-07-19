@@ -36,7 +36,164 @@
 		</div>
 
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-lg-8">
+
+				<!-- Javascript -->
+				<script>
+					init.push(function () {
+						$('#switcher-cell-phone').find('> input').switcher();
+						$('#switcher-home-phone').find('> input').switcher();
+						$('#switcher-work-phone').find('> input').switcher();
+						$('#switcher-username-1').find('> input').switcher();
+					});
+				</script>
+
+				<!-- Email -->
+				<form class="panel panel-12 panel-dark form-horizontal">
+					<div class="panel-heading">
+						<span class="panel-title">Email</span>
+					</div>
+					<div class="panel-body">
+
+						<!-- Email -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Email:</label>
+							<div class="col-sm-8">
+								<div class="row">
+									<div class="col-sm-8">
+										<input type="text" class="form-control" placeholder="bacon@gmail.com" disabled="">
+									</div>
+									<div class="col-sm-4">
+										<select class="form-control">
+											<option value="1">Do Not Display</option>
+											<option value="1">Public</option>
+											<option value="2">Private</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Submit button -->
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
+				<!-- Phone Numbers -->
+				<form class="panel panel-12 panel-dark form-horizontal">
+					<div class="panel-heading">
+						<span class="panel-title">Phone Numbers</span>
+					</div>
+					<div class="panel-body">
+
+						<!-- Cell Phone -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Cell Phone:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="">
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-cell-phone">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+						<!-- Home Phone -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Home Phone:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="">
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-home-phone">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+						<!-- Work Phone -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Work Phone:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="">
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-work-phone">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Submit button -->
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
+				<!-- Usernames -->
+				<form class="panel panel-12 panel-dark form-horizontal">
+					<div class="panel-heading">
+						<span class="panel-title">Usernames</span>
+					</div>
+					<div class="panel-body">
+
+						<!-- Usernames -->
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Username:</label>
+
+							<div class="col-sm-8">
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" class="form-control">
+									</div>
+									<div class="col-sm-5">
+										<select class="form-control">
+											<option value="" disabled="" selected="">--</option>
+											<option value="1">GitHub</option>
+											<option value="2">Skype</option>
+										</select>
+									</div>
+									<div class="col-sm-1">
+										<button type="button" class="btn"><i class="fa fa-trash"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-2" style="padding-top: 4px;">
+								<div id="switcher-username-1">
+									<input type="checkbox" data-class="switcher-primary" checked="checked">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Submit button -->
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-8">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
 			</div>
 		</div>
 
