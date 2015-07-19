@@ -46,19 +46,6 @@
 						<!-- Javascript -->
 						<script>
 							init.push(function () {
-								$('#switcher-example-1').switcher();
-
-								$('#switcher-example-2').switcher({
-									theme: 'square',
-									on_state_content: '<span class="fa fa-check"></span>',
-									off_state_content: '<span class="fa fa-times"></span>'
-								});
-
-								$('#switcher-example-3').switcher({
-									theme: 'modern'
-								});
-
-								// Colors
 								$('#switcher-gender').find('> input').switcher();
 								$('#switcher-birthday').find('> input').switcher();
 								$('#switcher-relationship-status').find('> input').switcher();
@@ -66,19 +53,6 @@
 								$('#switcher-political-views').find('> input').switcher();
 								$('#switcher-birthplace').find('> input').switcher();
 								$('#switcher-current-city').find('> input').switcher();
-
-								// Disabled state
-								$('#switcher-disabled-default').switcher();
-								$('#switcher-disabled-square').switcher({ theme: 'square' });
-								$('#switcher-disabled-modern').switcher({ theme: 'modern' });
-
-								$('#switcher-enable-all').click(function () {
-									$('#switchers-disabled').find('input').switcher('enable');
-								});
-
-								$('#switcher-disable-all').click(function () {
-									$('#switchers-disabled').find('input').switcher('disable');
-								});
 							});
 						</script>
 						<!-- / Javascript -->
@@ -111,7 +85,7 @@
 							</div>
 							<div class="col-sm-2" style="padding-top: 4px;">
 								<div id="switcher-gender" class="form-group-margin">
-									<input type="checkbox" data-class="switcher-primary" checked="checked">
+									<input type="checkbox" data-class="switcher-primary">
 								</div>
 							</div>
 						</div>

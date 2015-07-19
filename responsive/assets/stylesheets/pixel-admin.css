@@ -6659,12 +6659,6 @@ ul.dropdown-menu {
     ul.dropdown-menu > li > a > .label {
       padding-top: 1px;
       padding-bottom: 1px; }
-  ul.dropdown-menu .section-title {
-    font-size: 10px;
-    color: #BBB;
-    font-weight: 600;
-    padding: 12px 18px 0;
-    text-transform: uppercase; }
   ul.dropdown-menu .divider {
     border-width: 2px;
     margin: 5px 0; }

@@ -19,4 +19,4 @@ module.exports = function (js_src) {
 			}
 		}
 	}
-}
+};

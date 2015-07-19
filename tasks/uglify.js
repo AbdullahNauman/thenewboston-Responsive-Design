@@ -25,4 +25,4 @@ module.exports = function (js_dest) {
 			]
 		}
 	}
-}
+};
