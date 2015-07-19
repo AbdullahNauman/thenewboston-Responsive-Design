@@ -9,7 +9,7 @@
 
 		<!-- Logo and top menu toggle (for smaller screens) -->
 		<div class="navbar-header">
-			<a href="http://tnb-res.com/responsive/content/index.php" class="navbar-brand">
+			<a href="../account/index.php" class="navbar-brand">
 				<div>
 					<img src="https://www.thenewboston.com/photos/users/2/resized/e2398de91adc36343165148f3b15d35c.png">
 				</div>
@@ -71,8 +71,29 @@
 
 					<?php }elseif($parent == 'forum'){ ?>
 
-						<!-- Forum -->
+						<!-- Forum Home -->
 						<li><a href="index.php">Home</a></li>
+
+						<!-- Topics (dropdown) -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Topics</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Created</a></li>
+								<li><a href="#">Replied</a></li>
+								<li><a href="#">Saved</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Search</a></li>
+							</ul>
+						</li>
+
+						<!-- Categories (dropdown) -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Browse All</a></li>
+								<li><a href="#">Create New Category</a></li>
+							</ul>
+						</li>
 
 					<?php }elseif($parent == 'profile'){ ?>
 
@@ -92,7 +113,21 @@
 					<?php }elseif($parent == 'videos'){ ?>
 
 						<!-- Videos -->
-						<li><a href="index.php">Home</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Computer Science</a></li>
+						<li><a href="#">Humanities</a></li>
+						<li><a href="#">Math</a></li>
+						<li><a href="#">Science</a></li>
+
+						<!-- Categories (dropdown) -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Beauty</a></li>
+								<li><a href="#">Cooking</a></li>
+								<li><a href="#">Social Sciences</a></li>
+							</ul>
+						</li>
 
 					<?php }else{ ?>
 

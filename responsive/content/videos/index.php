@@ -24,14 +24,14 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_template.php"); ?>
+	<?php include("../../panel/left_videos.php"); ?>
 
 	<div id="content-wrapper">
 
 		<!-- Page header -->
 		<div class="page-header">
 			<div class="row">
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Videos Home</h1>
+				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm">Computer Science</h1>
 			</div>
 		</div>
 
