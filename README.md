@@ -51,11 +51,7 @@ NameVirtualHost *:80
 
 ***
 
-XAMPP is now installed and setup properly. You are now ready to [edit your Windows host file](https://github.com/thenewboston-developers/thenewboston-Social-Network/wiki/Edit-Windows-Host-File).
-
-**We will now edit Windows host file so that our computer can recognize our new domain name.**
-
-***
+We will now edit Windows host file so that our computer can recognize our new domain name.
 
 ### Step 4
 
@@ -91,11 +87,7 @@ Once saved, drag and replace the file using Windows explorer.
 
 ***
 
-Your local development environment is now ready. We can now [download and setup the project](https://github.com/thenewboston-developers/thenewboston-Social-Network/wiki/Forking-the-Repository).
-
-**You can now download the source code for the website so that you will have a copy for development.**
-
-***
+You can now download the source code for the website so that you will have a copy for development.
 
 ### Step 7
 
