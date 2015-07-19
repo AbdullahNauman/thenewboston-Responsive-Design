@@ -87,8 +87,8 @@ Switcher.prototype.toggle = ->
 # Default options
 Switcher.DEFAULTS =
   theme: null               # Theme
-  on_state_content:  'ON'   # On-text (html allowed)
-  off_state_content: 'OFF'  # Off-text (html allowed)
+  on_state_content:  'PRIVATE'   # On-text (html allowed)
+  off_state_content: 'PUBLIC'  # Off-text (html allowed)
 
 # Initializer
 $.fn.switcher = (options, attrs) ->

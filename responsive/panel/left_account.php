@@ -33,31 +33,31 @@
 			<li class="mm-dropdown">
 				<a href="#">
 					<i class="menu-icon fa fa-info-circle"></i>
-					<span class="mm-text">Information</span>
+					<span class="mm-text">My Information</span>
 				</a>
 				<ul>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="info_basic.php">
 							<span class="mm-text">Basic Info</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="info_contact.php">
 							<span class="mm-text">Contact</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="info_education.php">
 							<span class="mm-text">Education</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="info_employment.php">
 							<span class="mm-text">Employment</span>
 						</a>
 					</li>
 					<li>
-						<a tabindex="-1" href="#">
+						<a tabindex="-1" href="info_links.php">
 							<span class="mm-text">Links</span>
 						</a>
 					</li>

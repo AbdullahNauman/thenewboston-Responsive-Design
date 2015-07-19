@@ -24,7 +24,7 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_account_home.php"); ?>
+	<?php include("../../panel/left_account.php"); ?>
 
 	<div id="content-wrapper">
 		<!-- 5. $PROFILE ===================================================================================

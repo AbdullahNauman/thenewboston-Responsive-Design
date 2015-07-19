@@ -24,7 +24,7 @@
 <script>var init = [];</script>
 <div id="main-wrapper">
 	<?php include("../../panel/top_nav.php"); ?>
-	<?php include("../../panel/left_account_home.php"); ?>
+	<?php include("../../panel/left_account.php"); ?>
 
 	<div id="content-wrapper">
 
@@ -104,7 +104,7 @@
 
 									<!-- Drag and drop file -->
 									<div class="row">
-										<div class="col-xs-12 col-lg-6" style="padding-top: 6px; padding-bottom: 6px;">
+										<div class="col-xs-12" style="padding-top: 6px; padding-bottom: 6px;">
 											<script>
 												init.push(function () {
 													$("#dropzonejs-example").dropzone({
@@ -202,8 +202,6 @@
 				</div>
 
 			</div>
-
-
 
 			<!-- Notifications -->
 			<div class="col-xs-12 col-lg-4">
