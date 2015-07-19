@@ -130,5 +130,3 @@ Once all files have been downloaded, open up XAMPP and start Apache and MySQL.
 ***
 
 Setup is now complete! You can visit the site by going to: [http://tnb-res.com/responsive/content/account/index.php](http://tnb-res.com/responsive/content/account/index.php)
-
-![](http://i.imgur.com/mt3jzEM.png)
