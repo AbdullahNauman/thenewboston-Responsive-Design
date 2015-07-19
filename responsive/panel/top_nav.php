@@ -60,7 +60,7 @@
 						</li>
 
 						<!-- Search -->
-						<li><a href="#">Search</a></li>
+						<li><a href="search.php">Search</a></li>
 
 					<?php }elseif($parent == 'ads'){ ?>
 
